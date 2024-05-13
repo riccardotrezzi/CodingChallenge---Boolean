@@ -1,0 +1,97 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover; 
+}
+
+/*CSS Box*/
+
+.Box{
+    width: 1000px;
+    height: 750px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.472);
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+/*CSS Header*/
+
+header{
+    text-align:center;
+}
+
+.logo{
+    width:250px;
+    padding-top: 60px;
+    float:none;
+}
+
+#Titolo{
+    font-family: Helvetica;
+    color: rgb(15, 234, 15);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+/*CSS Navigazione*/
+
+.Navigazione{
+    background-color: rgb(15, 234, 15);
+    height: 40px;
+    text-align:center;
+}
+
+.CTA{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*CSS Main*/
+
+main>section{
+    margin-top:35px;
+}
+
+.SottotitoloMain{
+    font-family: Helvetica;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.TestoMain{
+    font-family:Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight:lighter;
+}
+
+section span{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.StatoCaricaOrange{
+    background-color: rgb(234, 146, 15);
+    height: 25px;
+    margin-right:65%;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.StatoCaricaGreen{
+    background-color: rgb(9, 200, 25);
+    height: 25px;
+    margin-right:45%;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.StatoCaricaRed{
+    background-color: rgb(203, 41, 41);
+    height: 25px;
+    margin-right:80%;
+    border-radius: 5px;
+    margin-top: 3px;
+}
